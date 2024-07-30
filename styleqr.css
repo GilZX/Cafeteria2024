@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+
+body {
+    font-family: 'Pacifico', cursive;
+    color: orangered;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    --background-image: url('images/bg_qr.jpg');
+    background-color: #0067f8;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Asegura que la lista ocupe todo el ancho del contenedor */
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Asegura que el contenedor tome todo el ancho disponible */
+    margin: 20px 0;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.qrcode img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (min-width: 600px) {
+    .logo-container img {
+        max-width: 300px; /* Ajusta este valor según tus necesidades */
+    }
+}
