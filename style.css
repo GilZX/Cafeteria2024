@@ -143,7 +143,8 @@ body{
 }
 
 .main_slide div:nth-child(1) span{
-   color: orangered;
+   color: white;
+   background-color: #0067f8;
    text-decoration: underline;
    text-underline-offset: 10px;
    text-decoration-color: yellow;
@@ -330,6 +331,7 @@ body{
         width: 75px;
         font-size: medium;
         color: orangered;
+      
     }
 
 
@@ -382,7 +384,9 @@ body{
 .main_slide3 .fav-head h3{
     font-size: 30px;
     padding: 20px 0;
-    color: #f75c03;
+    --color: #f75c03;
+    color: white;
+    background-color: #0067f8;
 }
 
 
@@ -402,7 +406,7 @@ body{
 
 .main_slide3 .fav-food  .item{
     /*background-color: aliceblue;*/
-    background-image: url("https://st.depositphotos.com/1016729/3637/i/450/depositphotos_36373753-stock-photo-old-menu-background-vintage-paper.jpg");
+    --background-image: url("https://st.depositphotos.com/1016729/3637/i/450/depositphotos_36373753-stock-photo-old-menu-background-vintage-paper.jpg");
     border-radius: 5px;
     margin-bottom: 30px;
    /*box-shadow: 0 2px 10px #cc5709;*/
